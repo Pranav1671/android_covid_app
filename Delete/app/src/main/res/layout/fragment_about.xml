@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutFragment"
+    android:padding="20dp">
+
+    <ImageView
+        android:layout_marginTop="8dp"
+        android:id="@+id/image1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/nav_info" />
+
+    <TextView
+        android:layout_marginTop="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About"
+        android:textSize="30dp"
+         android:id="@+id/about"
+        android:layout_toRightOf="@id/image1"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/about"
+        android:id="@+id/desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Introducing our dedicated COVID-19 application, a reliable companion in the fight against the global pandemic. Our app is designed to provide users with up-to-date information, resources, and essential tools to navigate through these challenging times. Stay informed with real-time statistics on infection rates, vaccination progress, and crucial health guidelines. Access a user-friendly symptom checker for self-assessment and quick guidance. The app facilitates seamless appointment scheduling for vaccinations and testing centers. Additionally, get personalized alerts and notifications to ensure you never miss critical updates. We prioritize user well-being by offering verified information from reputable health organizations. With an intuitive interface and comprehensive features, our COVID-19 app is your go-to resource for staying vigilant, informed, and resilient in the face of the ongoing pandemic. Together, let's empower ourselves and contribute to a safer, healthier community."
+        android:textSize="19sp"/>
+
+</RelativeLayout>
